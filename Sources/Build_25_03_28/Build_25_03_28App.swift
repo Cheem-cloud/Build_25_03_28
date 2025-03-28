@@ -1,7 +1,6 @@
 import SwiftUI
 import FirebaseCore
 import GoogleSignIn
-import CheemHang_03_25
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
@@ -18,14 +17,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct CheemHang_03_25App: App {
+struct Build_25_03_28App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    @StateObject private var authViewModel = AuthViewModel()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(authViewModel)
         }
     }
 } 

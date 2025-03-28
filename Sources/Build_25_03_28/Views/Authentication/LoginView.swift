@@ -2,8 +2,6 @@ import SwiftUI
 import FirebaseAuth
 import GoogleSignIn
 
-@_exported import struct CheemHang_03_25.ThemeColors
-
 struct LoginView: View {
     @EnvironmentObject private var authViewModel: AuthViewModel
     

@@ -1,5 +1,3 @@
-// test
-// trying again
 import SwiftUI
 import FirebaseAuth
 import GoogleSignIn
